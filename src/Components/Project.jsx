@@ -28,7 +28,7 @@ const Project = () => {
           </p>
           <div className="project-buttons">
             <a
-              href="https://github.com/AshishSingh9931/Portfolio"
+              href="https://github.com/AshishSingh9931/Ashish-s-portfolio"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Project = () => {
               View Code
             </a>
             <a
-              href="portfolio-phi-peach-33.vercel.app"
+              href="portfolio-nu-liart-93.vercel.app"
               className="btn btn-secondary"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,3 +91,4 @@ const Project = () => {
 };
 
 export default Project;
+
