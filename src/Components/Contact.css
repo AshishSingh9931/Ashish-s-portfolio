@@ -1,0 +1,101 @@
+.contact {
+  background-color: #111;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: white;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-info {
+  text-align: left;
+  min-width: 250px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #e67e22;
+}
+
+.contact-info p a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e67e22;
+}
+
+.icon-click {
+  display: flex;
+  gap: 15px; /* icons ke beech gap */
+  margin-top: 20px;
+}
+
+.icon-click a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* circle size */
+  height: 50px; /* circle size */
+  border-radius: 50%; /* gol circle */
+  background-color: #222; /* dark background */
+  color: #f39c12; /* icon color */
+  font-size: 1.5rem; /* icon size */
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.icon-click a:hover {
+  background-color: #f39c12; /* hover pe background orange */
+  color: #111; /* hover pe icon ka color dark ho jaye */
+  transform: scale(1.1); /* halka zoom */
+}

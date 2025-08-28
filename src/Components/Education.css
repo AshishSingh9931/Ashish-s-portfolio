@@ -1,0 +1,135 @@
+.education {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 60px 100px;
+}
+
+.academic-journey {
+  margin-top: 50px;
+  text-align: center;
+  padding: 0 120px; /* left-right space */
+}
+
+.academic-journey .section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ecebe9;
+  margin-bottom: 20px;
+}
+
+.academic-journey p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #ddd;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffa500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-item {
+  background: #2a2a2a;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #ffa500;
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateX(5px);
+}
+
+.education-item h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #ffa500;
+}
+
+.university {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.year {
+  display: block;
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.cgpa {
+  display: block;
+  font-size: 16px;
+  color: #ffa500;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.education-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Responsive Design for Education Section */
+@media (max-width: 768px) {
+  .education {
+    padding: 40px 20px; /* kam padding mobile ke liye */
+  }
+
+  .academic-journey {
+    padding: 0 20px; /* left-right padding kam kar diya */
+    margin-top: 30px;
+  }
+
+  .academic-journey .section-title {
+    font-size: 24px;
+  }
+
+  .academic-journey p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify; /* mobile pe better readability */
+  }
+
+  .section-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .education-item {
+    padding: 18px;
+  }
+
+  .education-item h3 {
+    font-size: 18px;
+  }
+
+  .university {
+    font-size: 16px;
+  }
+
+  .year,
+  .cgpa {
+    font-size: 14px;
+  }
+
+  .education-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+}

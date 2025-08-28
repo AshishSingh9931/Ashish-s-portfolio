@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #1e1e1e; /* Dark background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffa500;
+  letter-spacing: 1px;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; /* circular image */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f5f5f5;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #ffa500;
+  border-bottom: 2px solid #ffa500;
+  padding-bottom: 3px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Home, Education, Skills, etc. hide */
+  }
+
+  .header {
+    padding: 15px 20px; /* thoda compact header */
+  }
+
+  .logo {
+    font-size: 22px; /* logo text thoda chhota */
+  }
+}
