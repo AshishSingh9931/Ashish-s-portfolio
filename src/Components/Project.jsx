@@ -36,7 +36,7 @@ const Project = () => {
               View Code
             </a>
             <a
-              href="portfolio-atjazo60d-ashishs-projects-64343cdb.vercel.app"
+              href="https://portfolio-nu-liart-93.vercel.app"
 
               className="btn btn-secondary"
               target="_blank"
@@ -108,6 +108,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
