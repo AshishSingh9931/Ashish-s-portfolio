@@ -50,18 +50,34 @@ const Project = () => {
         {/* Project 2 */}
         <div className="project-card">
           <div className="project-image">
-            <div className="image-placeholder">Image</div>
+            <div className="image-placeholder">
+              <img
+              src="/logo2.png"
+              alt="Grocery Website"
+              className="project-img"
+              />
+           </div>
           </div>
-          <h3>Weather App</h3>
+          <h3>Grocery App</h3>
           <p>
-            A weather forecasting app using APIs to show real-time weather
-            updates.
+           Fresh groceries delivered fast, easy shopping with smooth cheakout system.
           </p>
           <div className="project-buttons">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/AshishSingh9931/my-grocery"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Code
             </a>
-            <a href="#" className="btn btn-secondary">
+            <a
+              href="https://my-grocery-eight.vercel.app"
+
+              className="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -92,6 +108,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
