@@ -132,7 +132,7 @@ const Project = () => {
           </div>
           <h3>Social media</h3>
           <p>
-           We sell a wide range of books to inspire, educate, and entertain readers.
+           A social media app connects people, shares ideas, and builds online communities.
           </p>
           <div className="project-buttons">
             <a
@@ -160,6 +160,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
