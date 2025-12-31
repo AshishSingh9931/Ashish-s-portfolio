@@ -83,21 +83,37 @@ const Project = () => {
           </div>
         </div>
 
-        {/* Project 3 */}
+        {/* Project 2 */}
         <div className="project-card">
           <div className="project-image">
-            <div className="image-placeholder">Image</div>
+            <div className="image-placeholder">
+              <img
+              src="/Mybook.jpeg"
+              alt="Grocery Website"
+              className="project-img"
+              />
+           </div>
           </div>
-          <h3>Todo App</h3>
+          <h3>Book Store</h3>
           <p>
-            A simple and responsive Todo app with CRUD features to manage daily
-            tasks.
+           Fresh groceries delivered fast, easy shopping with smooth cheakout system.
           </p>
           <div className="project-buttons">
-            <a href="#" className="btn">
+            <a
+              href="https://github.com/AshishSingh9931/my-grocery"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Code
             </a>
-            <a href="#" className="btn btn-secondary">
+            <a
+              href="https://my-grocery-eight.vercel.app"
+
+              className="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -108,6 +124,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
