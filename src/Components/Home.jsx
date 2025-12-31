@@ -32,7 +32,7 @@ const Home = () => {
         </p>
 
         <div className="buttons">
-          <a href="/Resume.pdf" download className="btn">
+          <a href="/Ashish_CV.pdf" download className="btn">
             <FaCloudDownloadAlt className="btn-icon" />
             Download Resume
           </a>
@@ -56,3 +56,4 @@ const Home = () => {
 };
 
 export default Home;
+
