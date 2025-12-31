@@ -83,7 +83,7 @@ const Project = () => {
           </div>
         </div>
 
-        {/* Project 2 */}
+        {/* Project 3 */}
         <div className="project-card">
           <div className="project-image">
             <div className="image-placeholder">
@@ -100,7 +100,7 @@ const Project = () => {
           </p>
           <div className="project-buttons">
             <a
-              href="https://github.com/AshishSingh9931/my-grocery"
+              href="https://github.com/AshishSingh9931/socialmedia"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -124,6 +124,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
