@@ -118,12 +118,49 @@ const Project = () => {
             </a>
           </div>
         </div>
+
+        {/* Project 4 */}
+        <div className="project-card">
+          <div className="project-image">
+            <div className="image-placeholder">
+              <img
+              src="/Mybook.jpeg"
+              alt="Minisocial media Website"
+              className="project-img"
+              />
+           </div>
+          </div>
+          <h3>Social media</h3>
+          <p>
+           We sell a wide range of books to inspire, educate, and entertain readers.
+          </p>
+          <div className="project-buttons">
+            <a
+              href="https://github.com/AshishSingh9931/socialmedia"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code
+            </a>
+            <a
+              href="https://ecommerce-site-flax.vercel.app"
+
+              className="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
 export default Project;
+
 
 
 
