@@ -108,7 +108,7 @@ const Project = () => {
               View Code
             </a>
             <a
-              href="https://my-grocery-eight.vercel.app"
+              href="https://ecommerce-site-flax.vercel.app"
 
               className="btn btn-secondary"
               target="_blank"
@@ -124,6 +124,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
