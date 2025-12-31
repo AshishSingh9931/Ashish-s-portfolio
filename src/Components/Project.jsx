@@ -89,14 +89,14 @@ const Project = () => {
             <div className="image-placeholder">
               <img
               src="/Mybook.jpeg"
-              alt="Grocery Website"
+              alt="bookstore Website"
               className="project-img"
               />
            </div>
           </div>
           <h3>Book Store</h3>
           <p>
-           Fresh groceries delivered fast, easy shopping with smooth cheakout system.
+           We sell a wide range of books to inspire, educate, and entertain readers.
           </p>
           <div className="project-buttons">
             <a
@@ -124,6 +124,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
