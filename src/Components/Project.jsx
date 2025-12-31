@@ -124,7 +124,7 @@ const Project = () => {
           <div className="project-image">
             <div className="image-placeholder">
               <img
-              src="/Mybook.jpeg"
+              src="/Social.png"
               alt="Minisocial media Website"
               className="project-img"
               />
@@ -160,6 +160,7 @@ const Project = () => {
 };
 
 export default Project;
+
 
 
 
